@@ -29,7 +29,7 @@ function App() {
       },
       body: JSON.stringify(inputData),
     };
-    await fetch('http://localhost:8080/register', requestCall);
+    await fetch('/register', requestCall);
     alert('Thank you for your submission!');
   };
 
